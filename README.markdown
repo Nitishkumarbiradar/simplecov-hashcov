@@ -11,7 +11,7 @@ Hashcov.config.after_format_callback = -> (output) {
   debugger # or whatever you want to do with the output
 }
 SimpleCov.start 'rails' do
-  formatter SimpleCov::Formatter::HashcovFormatter
+  formatter SimpleCov::Formatter::HashFormatter
 end
 
 #Sample Output
