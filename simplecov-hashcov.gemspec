@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = '0.0.1'
   s.summary = 'Custom hash formatter to generate coverage result and then call a callback on it.'
 
-  s.add_dependency 'dry-configurable', '~> 0.7.0'
+  s.add_dependency 'dry-configurable'
   s.add_dependency('simplecov', ['~> 0.18'])
   s.add_development_dependency 'rubocop', '~> 0.64'
   s.add_development_dependency 'rubocop-rspec', '~> 0.64'
