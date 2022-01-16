@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.date = '2022-01-16'
   s.description = 'Custom SimpleCov formatter to use a callback to create issues on GitHub.'
   s.email = 'sampo@sampo.ltd'
-  spec.files = Dir.chdir(File.expand_path(__dir__)) do
+  s.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{\A(?:test|spec|features)/}) }
   end
   s.homepage = 'http://github.com/fortissimo1997/simplecov-lcov'
